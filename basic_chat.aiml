@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2.0" encoding="UTF-8">
+	
+	<category>
+		<pattern>Hello</pattern>
+		<template>Well hello!!!</template>
+	</category>
+	
+	<category>
+		<pattern>Bye</pattern>
+		<template>Bye!</template>
+	</category>
+	
+	<category>
+		<pattern>save</pattern>
+		<template>Brain has been saved</template>
+	</category>
+
+	<category>
+		<pattern>reload</pattern>
+		<template>Brain reloaded</template>
+	</category>
+
+	<category>
+		<pattern>What is your name</pattern>
+		<template>My name is <bot name="name"/></template>
+	</category>
+
+	<category>
+		<pattern>Tell me your name</pattern>
+		<template><srai>what is your name</srai></template>
+	</category>
+
+	<category>
+		<pattern>activate voice</pattern>
+		<template>Voice input activated</template>
+	</category>
+	<category>
+		<pattern>voice failed</pattern>
+		<template>Voice input activation failed check your internet connection</template>
+	</category>
+	<category>
+		<pattern>deactivate voice</pattern>
+		<template>Voice input deactivated</template>
+	</category>
+</aiml>

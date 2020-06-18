@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2.0" encoding="UTF-8">
+	<category>
+		<pattern>Learn files</pattern>
+		<template>
+			<learn>basic_chat.aiml</learn>
+			<learn>./alice/*.aiml</learn>
+		</template>
+	</category>
+</aiml>

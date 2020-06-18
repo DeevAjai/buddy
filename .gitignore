@@ -1,0 +1,6 @@
+_pycache__/
+build/
+*.rar
+*.exe
+*.spec
+*.pyc
